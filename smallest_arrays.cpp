@@ -9,7 +9,7 @@ int main(){
 
     for(int i=0;i<size;i++){
         if(nums[i] < smallest){
-            smallest = nums[i];
+            smallest = nums[i]; // or  smallest = min(nums[i],smallest);
         }
     }
 
