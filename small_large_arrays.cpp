@@ -6,8 +6,8 @@ int main()
     int nums[] = {5, 15, 10, -34, 2, 89};
     int size = 6;
 
-    int smallest = nums[0];
-    int largest = nums[0];
+    int smallest = INT32_MAX; // Biggest possible integer (~2 billion)
+    int largest = INT32_MIN;  // Smallest possible integer (~-2 billion)
 
     for (int i = 0; i < size; i++)
     {
