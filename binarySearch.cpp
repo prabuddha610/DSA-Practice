@@ -2,8 +2,8 @@
 #include <vector>
 using namespace std;
 
-int binarySearch(vector<int> arr, int tar){ // 0(log n)
-    int st=0,end=arr.size()-1;
+int binarySearch(vector<int> arr, int tar){ // Time complexity --> 0(log n)
+    int st=0,end=arr.size()-1; // Space complexity --> 0(1)
 
     while(st <= end){
         int mid = (st + end)/2;  // use st + (end -st)/2 for better optimization
