@@ -16,5 +16,14 @@ int main(){
     }
     cout << endl;
 
+    l.pop_back();
+    l.pop_front();
+
+    for (int val : l)
+    {
+        cout << val << " ";
+    }
+    cout << endl;
+
     return 0;
 }
